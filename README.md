@@ -62,15 +62,15 @@ npm start
 ## Usage
 The following animation shows the application's GET routes to return all categories, all products, and all tags being tested in Insomnia:
 
-![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](./assets/get-all.gif)
+![In Insomnia, the user tests “GET tags,” “GET Categories,” and “GET All Products.”.](assets/get-all.gif)
 
 The following animation shows the application's GET routes to return a single category, a single product, and a single tag being tested in Insomnia:
 
-![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](./assets/get-one.gif)
+![In Insomnia, the user tests “GET tag by id,” “GET Category by ID,” and “GET One Product.”](assets/get-one.gif)
 
 The following animation shows the application's POST, PUT, and DELETE routes for categories being tested in Insomnia:
 
-![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](./assets/create-update-delete.gif)
+![In Insomnia, the user tests “DELETE Category by ID,” “CREATE Category,” and “UPDATE Category.”](assets/create-update-delete.gif)
 
 ## Walkthrough
 Watch the walkthrough to see how the application is used: <ins>[E-commerce Backend](assets/walkthrough-e-commerce-backend-.webm)<ins>
