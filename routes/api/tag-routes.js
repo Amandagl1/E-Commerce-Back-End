@@ -22,12 +22,12 @@ router.post('/', (req, res) => {
 
 router.put('/:id', (req, res) => {
   // update a tag's name by its `id` value
-  Category.update(req.body, {where: {id: req.params.id}}).then(tagData => res.json(tagData))
+  Tag.update(req.body, {where: {id: req.params.id}}).then(tagData => res.json(tagData))
 });
 
 router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
-  Category.destroy(req.body, {where: {id: req.params.id}}).then(tagData => res.json(tagData))
+  Tag.destroy(req.body, {where: {id: req.params.id}}).then(tagData => res.json(tagData))
 });
 
 module.exports = router;
